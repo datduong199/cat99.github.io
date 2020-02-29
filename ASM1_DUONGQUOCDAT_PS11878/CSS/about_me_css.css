@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+}
+.tong{
+	font-family: 'Roboto Slab', serif ;
+	background-image: url(../img/a0dacbf4a4e06a776fa8e8a3cd6b24cc.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-position: center center;
+}
+.khung{
+	text-align: center;
+	margin: 50px auto;
+	width: 480px;
+	height: 600px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px grey;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+p{
+	margin: 0 30px 0 30px;
+	font-size: 17px;
+}
+img{
+	margin-top: 25px;
+	margin-bottom: 25px;	
+}
+.icon>a>img{
+	border-radius: 8px;
+}
+.home{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-size: 20px;
+}
+.home>a{
+	color: white;
+	text-decoration: none;
+}
+.home>a:hover{
+	color: palegoldenrod;
+}
